@@ -1,0 +1,264 @@
+body {
+  font-family: "Encode Sans", sans-serif;
+  background-color: white;
+}
+
+.todapagina {
+  width: 1250px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.conteudo-esquerda {
+  width: 53%;
+}
+
+.conteudo-direita {
+  width: 47%;
+  display: flex;
+  height: 1000px;
+  border-left: 1px solid #e5e5e5;
+}
+.conteudo-direita-1 {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  align-items: center;
+}
+.conteudo-direita-2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-left: 1px solid #e5e5e5;
+  align-items: center;
+}
+
+.todoconteudo {
+  display: flex;
+  border-top: solid 20px white;
+}
+
+.logo img {
+  width: 171px;
+  height: 36px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  border-bottom: solid 20px white;
+}
+
+.barra-superior {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  font-weight: bold;
+  font-size: 19px;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.barra-1 {
+  /*g1*/
+  color: #c3170c;
+}
+
+.barra-2 {
+  /* o globo*/
+  color: #1e4b9b;
+}
+.barra-3 {
+  /* valor*/
+  color: #006766;
+}
+.barra-4 {
+  /* ge*/
+  color: #07aa47;
+}
+.barra-5 {
+  /* cartola*/
+  color: #e3662b;
+}
+.barra-6 {
+  /* globoplay*/
+  color: #fb0735;
+}
+.barra-7 {
+  /*dropz*/
+  color: #ff75bb;
+}
+.barra-8 {
+  /*gshow*/
+  color: #ec7d00;
+}
+.barra-9 {
+  /*quem*/
+  color: #323333;
+}
+.barra-10 {
+  /*receitas*/
+  color: #a81d83;
+}
+.barra-1 p:hover,
+.barra-2 p:hover,
+.barra-3 p:hover,
+.barra-4 p:hover,
+.barra-5 p:hover,
+.barra-6 p:hover,
+.barra-7 p:hover,
+.barra-8 p:hover,
+.barra-9 p:hover,
+.barra-10 p:hover {
+  transition: 0.5s;
+  filter: brightness(150%);
+}
+
+.materia-principal {
+  width: 624px;
+  height: 201px;
+}
+h1 {
+  /*máteria principal*/
+  font-size: 52px;
+  font-weight: bold;
+  color: #c4160c;
+}
+.materia-principal h1:hover {
+  transition: 0.5s;
+  filter: brightness(150%);
+}
+
+.materia-secundaria {
+  width: 622px;
+  height: 25px;
+}
+h2 {
+  /*Mmtéria secundaria*/
+  font-size: 18px;
+  color: #303314;
+  line-height: 22.5px;
+  font-weight: 500px;
+  padding-bottom: 6px;
+}
+
+.materias-abaixo {
+  margin-top: 65px;
+  display: flex;
+  width: 700px;
+  height: 300px;
+}
+.materias-abaixo h1:hover {
+  transition: 0.5s;
+  filter: brightness(150%);
+}
+.materias-abaixo img {
+  width: 193px;
+  height: 110px;
+  border-radius: 12px;
+}
+
+.materias-abaixo img:hover {
+  transition: 0.5s;
+  opacity: 85%;
+}
+
+.noticia-abaixo {
+  margin-right: 25px;
+}
+.noticia-abaixo h1 {
+  font-size: 14px;
+  color: #c4170c;
+  line-height: 17px;
+  width: 192px;
+  height: 19px;
+  margin-top: 5px;
+}
+
+.titulo-materia {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #2f3134;
+  margin-top: 4px;
+  width: 192px;
+  height: 84px;
+}
+
+.subtitulo-materia {
+  font-size: 14px;
+  line-height: 19px;
+  color: #2f3134;
+  margin-top: 5px;
+  width: 174px;
+  height: 42.5px;
+}
+
+.conteudo-direita-1 img,
+.conteudo-direita-2 img {
+  border-radius: 12px;
+  width: 240px;
+  height: 128px;
+}
+.conteudo-direita-1 img:hover,
+.conteudo-direita-2 img:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  opacity: 85%;
+}
+
+.noticia-direita {
+  margin-bottom: 30px;
+}
+
+.todoconteudo a {
+  text-decoration: none;
+}
+.barra-superior a {
+  text-decoration: none;
+}
+
+.titulo-materia-direita {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #2f3134;
+  margin-top: 8px;
+  width: 240px;
+}
+
+.subtitulo-materia-direita {
+  font-size: 14px;
+  line-height: 19px;
+  color: #2f3134;
+  margin-top: 8px;
+  width: 217px;
+}
+.chamada-materia {
+  color: #16ae54;
+  font-size: 14px;
+}
+.chamada-materia:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  filter: brightness(150%);
+}
+.chamada-materiav2 {
+  color: #ec8106;
+  font-weight: 500;
+  font-size: 14px;
+}
+.chamada-materiav2:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  filter: brightness(150%);
+}
